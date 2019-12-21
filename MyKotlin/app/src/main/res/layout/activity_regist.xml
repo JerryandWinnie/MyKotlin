@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegistActivity">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="128dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo1"/>
+
+    <EditText
+        android:id="@+id/regist_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#ffffff"
+        android:hint="昵称"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/regist_edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#ffffff"
+        android:hint="手机号"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/regist_edit_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#ffffff"
+        android:hint="登录密码"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/regist_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#20affa"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="注册"/>
+
+</LinearLayout>
